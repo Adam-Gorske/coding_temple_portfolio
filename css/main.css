@@ -1,133 +1,38 @@
-body, html{
-    height: 100%;
-    margin: 0px;
+body {
+    font-family: 'Times New Roman', Times, serif
 }
 
-body{
-    background-color: black
-}
-
-nav li{
-    display: inline;
-    margin: 20px;
-}
-
-nav ul{
-    background-color: black;
-    margin: 0;
-    list-style-type:none;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-}
-
-nav{
-    display: block;
-    color: white;
-}
-
-nav a{
-    color: white;
-    text-decoration:none;
-}
-
-nav a:hover{
-    color: grey;
-}
-
-.hero-image{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)),url("../images/farmland.JPG");
-    height:100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.hero-text{
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-100%);
-}
-
-#main{
-    width: 75%;
-    float: left;
-    height: 100%;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-#side{
-    width: 20%;
+.info_bio {
+    border: 1px solid black;
     float: right;
-    height: 100%;
-    padding: 20px;
+    background-color: rgb(235, 233, 233);
+    margin-right: 20px
 }
 
-#main-image{
-    width: 400px;
-    border: 5px solid;
+.jumplinks {
+    border: 1px solid black;
+    width: fit-content;
+    padding-right: 20px;
 }
 
-#profile{
-    text-align:center;
+.bodyimage {
+    border: 1px solid black;
+    
 }
 
 
-.side-article ul{
-    list-style-type: none;
-    text-align: center;
-}
-
-#profile h2{
-    display: inline;
-}
-
-#profile-details{
-    margin-right: 30px;
-    text-align: center;
-}
-
-.side-article, .main-article{
+.rightinfo {
     padding: 10px;
-    margin-bottom; 10px;
-    border-radius; 10px;
 }
 
-.side-article{
-    background-color: rgb(166, 169, 168);
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 10px;
+.adam_eve_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.main-article{
-    background-color: cornsilk;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-form{
-    margin-top: 20px;
-}
-
-textarea, input{
-    background-color:cornsilk;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-}
-
-.side-article h1{
-    margin-bottom: 20px;
-}
-
-footer{
-    bottom: 0px;
-    width: 100px;
-    color: white;
+.bio_left {
+    text-align: left;
+    padding: 10px;
 }
